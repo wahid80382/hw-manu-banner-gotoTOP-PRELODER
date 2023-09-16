@@ -1,0 +1,28 @@
+#setText{
+    font-size: 30px;
+    color:darkolivegreen;
+}
+input{
+    width:300px;
+    height: 30px;
+    margin: 5px;
+}
+#afterclick{
+    width: 30px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 0px;
+}
+
+#delinput{
+    width: 30px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 0px;
+}

@@ -1,0 +1,283 @@
+/* preloaader css start */
+#preloader{ 
+    position: fixed;
+    inset: 0;
+    background-color: #ffff;
+    z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#preloader span{   
+    width:5px;
+    height: 300px;    
+    background-image: linear-gradient(red,green,orange,yellow);    
+    display: inline-block;
+    margin-right: 5px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: Anim;
+    animation-duration: 20s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    transform-origin: bottom;    
+} 
+#preloader span:nth-child(1){
+    animation-delay: 0.5s;
+}
+#preloader span:nth-child(2){
+    animation-delay: 1s;
+}
+#preloader span:nth-child(3){
+    animation-delay: 1.5s;
+}
+#preloader span:nth-child(4){
+    animation-delay: 2s;
+}
+#preloader span:nth-child(5){
+    animation-delay: 2.5s;
+}
+#preloader span:nth-child(6){
+    animation-delay: 3s;
+}
+#preloader span:nth-child(7){
+    animation-delay: 3.5s;
+}
+#preloader span:nth-child(8){
+    animation-delay: 4.0s;
+}
+#preloader span:nth-child(9){
+    animation-delay: 5s;
+}
+#preloader span:nth-child(10){
+    animation-delay: 5.5s;
+}
+#preloader span:nth-child(11){
+    animation-delay: 6s;
+}
+#preloader span:nth-child(12){
+    animation-delay: 6.5s;
+}
+#preloader span:nth-child(13){
+    animation-delay: 7s;
+}
+#preloader span:nth-child(14){
+    animation-delay: 7.5s;
+}
+#preloader span:nth-child(15){
+    animation-delay: 8s;
+}
+#preloader span:nth-child(16){
+    animation-delay: 8.5s;
+}
+#preloader span:nth-child(17){
+    animation-delay: 9s;
+}
+#preloader span:nth-child(18){
+    animation-delay: 9.5s;
+}
+#preloader span:nth-child(19){
+    animation-delay: 10s;
+}
+#preloader span:nth-child(20){
+    animation-delay: 10.5s;
+}
+#preloader span:nth-child(21){
+    animation-delay: 11s;
+}
+#preloader span:nth-child(22){
+    animation-delay: 12s;
+}
+#preloader span:nth-child(23){
+    animation-delay: 11.5s;
+}
+#preloader span:nth-child(24){
+    animation-delay: 12s;
+}
+#preloader span:nth-child(25){
+    animation-delay: 12.5s;
+}
+#preloader span:nth-child(26){
+    animation-delay: 13s;
+}
+#preloader span:nth-child(27){
+    animation-delay: 13.5s;
+}
+#preloader span:nth-child(28){
+    animation-delay: 14s;
+}
+#preloader span:nth-child(29){
+    animation-delay: 14.5s;
+}
+#preloader span:nth-child(30){
+    animation-delay: 15s;
+}
+#preloader span:nth-child(31){
+    animation-delay: 15.5s;
+}
+#preloader span:nth-child(32){
+    animation-delay: 16s;
+}
+#preloader span:nth-child(33){
+    animation-delay: 17s;
+}
+#preloader span:nth-child(34){
+    animation-delay: 17.5s;
+}
+#preloader span:nth-child(35){
+    animation-delay: 18s;
+}
+#preloader span:nth-child(36){
+    animation-delay: 18.5s;
+}
+#preloader span:nth-child(37){
+    animation-delay: 19s;
+}
+#preloader span:nth-child(38){
+    animation-delay: 19.5s;
+}
+#preloader span:nth-child(39){
+    animation-delay: 20s;
+}
+#preloader span:nth-child(40){
+    animation-delay: 8s;
+}
+#preloader span:nth-child(41){
+    animation-delay: 8.2s;
+}
+#preloader span:nth-child(42){
+    animation-delay: 8.4s;
+}
+#preloader span:nth-child(43){
+    animation-delay: 8.6s;
+}
+#preloader span:nth-child(44){
+    animation-delay: 8.8s;
+}
+#preloader span:nth-child(45){
+    animation-delay: 9s;
+}
+#preloader span:nth-child(46){
+    animation-delay: 9.2s;
+}
+#preloader span:nth-child(47){
+    animation-delay: 9.4s;
+}
+#preloader span:nth-child(48){
+    animation-delay: 9.6s;
+}
+#preloader span:nth-child(49){
+    animation-delay: 9.8s;
+}
+#preloader span:nth-child(50){
+    animation-delay: 10s;
+}
+@keyframes Anim {
+    0%{        
+        transform: scaleY(0);    
+    }
+    /* 25%{        
+        transform: translateX(1150px) translateY(0px);       
+    }   
+    50%{       
+        transform: translateX(1150px) translateY(400px) ;
+    }  
+    75%{       
+        transform: translateX(0px) translateY(400px);
+    } */
+    100%{        
+        transform: scaleY(1);  ;
+    }
+}
+/* preloader css end */
+/* nav css start */
+nav{   
+    box-shadow:0 2px 10px 0 rgba(0, 0, 0, 0.5); 
+    background-color: aquamarine;
+  
+}
+nav.drop{
+    background-color:#ffff;
+    color:blue;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    animation-name:manuDrop;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes manuDrop{
+    from{
+        top:-100px
+    }
+    to{
+        top:0
+    }
+}
+nav div{
+    align-items: center;
+    justify-content: space-between;    
+}
+nav div a{
+    color:blue;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+}
+nav div a:hover{
+    background-image: linear-gradient(rgb(175, 49, 49),rgb(151, 216, 151));
+    color:#ffff
+}
+
+nav div img{
+    height: 60px;
+    padding: 5px 0;    
+}
+/* nav css end */
+/* banner css satrt */
+#banner img{
+    width: 100%;
+    height: 590px;
+    background-size: cover;
+}
+#backToTop{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: coral;
+    color:blue;
+    position: fixed;
+    bottom: 80%;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#backToTop:hover{
+    
+    background-color:chocolate;
+    color:#ffff;   
+}
+#backToTop.active{
+    visibility: visible;
+    opacity: 1;
+    bottom:50px;
+}
+/* banner css end */
+/* about css start */
+#about p{
+    text-align: justify;
+}
+#about p::first-letter{
+    color:red;
+    font-size: 60px;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+/* about css end */
